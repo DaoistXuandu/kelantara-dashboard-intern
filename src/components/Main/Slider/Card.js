@@ -1,5 +1,5 @@
 
-import { merriweather, roboto } from "@/fonts";
+import { roboto } from "@/fonts";
 import React, { useEffect } from "react"
 
 const Card = (item) => {

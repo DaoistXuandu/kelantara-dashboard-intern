@@ -1,6 +1,6 @@
 // NavBar.jsx
 import { description } from '@/description';
-import { merriweather, roboto } from '@/fonts';
+import { roboto } from '@/fonts';
 import { link } from '@/link';
 import React from 'react';
 import Card from './Card';

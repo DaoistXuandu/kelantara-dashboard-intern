@@ -1,6 +1,6 @@
 
-import { merriweather, roboto } from "@/fonts";
-import React, { useEffect } from "react"
+import { roboto } from "@/fonts";
+import React from "react"
 
 const Profile = (item) => {
     return (
