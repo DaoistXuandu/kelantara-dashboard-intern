@@ -3,7 +3,7 @@ import { description } from '@/description';
 import { merriweather, roboto } from '@/fonts';
 import { link } from '@/link';
 import React from 'react';
-import Card from '../Carousel/Card';
+import Card from '../Slider/Card';
 import { news, populer } from '@/data';
 import SeeAll from '../../SeeAll';
 import Headline from './Headline';

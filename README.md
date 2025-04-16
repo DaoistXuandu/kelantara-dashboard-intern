@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Running Procedure
+Bisa download source code atau clone pada repo berikut:
+```
+git clone https://github.com/DaoistXuandu/kelantara-dashboard-intern
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Apabila telah mendapatkan kode file bisa langsung inisiasi paket node
+```
+npm init
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Dan jalankan prosedur aplikasi
+```
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Pada komputer lokal program akan bekerja pada `localhost:3000`
 
-## Learn More
+## Struktur Komponen
+Pada dashboard ini semua komponen tersusun pada berkas page.tsx yang berada pada `src/app/page.js` dimana pada berkas tersebut terdapat 5 Komponen utama yakni 
 
-To learn more about Next.js, take a look at the following resources:
+### Navigation / Navbar
+Dimana berfungsi untuk melakukan navigasi ke berbagai halaman berbeda pada aplikasi
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Header
+Berisi gambar pembuka dan juga judul
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Carousel
+Berisi slider tentang berbagai berita populer 
 
-## Deploy on Vercel
+### Slider
+Berisi berbagai aktivitas orang - orang
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### News
+Berisi berbagai berita terkini
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+

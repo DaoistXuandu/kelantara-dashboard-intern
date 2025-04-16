@@ -2,7 +2,7 @@
 import Community from "@/components/Main/Community/Community";
 import Header from "@/components/Main/Header/Header";
 import News from "@/components/Main/News/News";
-import Slider from "@/components/Main/Carousel/Slider";
+import Slider from "@/components/Main/Slider/Slider";
 import NavBar from "@/components/Navigation/Navbar";
 
 export default function Home() {
